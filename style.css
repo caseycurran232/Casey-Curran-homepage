@@ -18,20 +18,38 @@
       margin: auto;
 
     }
+    
+    .container1{
+      width: 1000px;
+      background-color: #fff;
+      margin: auto;
+      display: flex;
+      align-items: center;
+
+    }
+
+    .container2{
+      width: 17%;
+      background-color: #fff;
+      margin: auto;
+
+    }
+
  h1 {
-    color: navy;
+    color: rgb(220, 28, 28);
     font-family: 'SeafordBold';
     text-align: center;
   }
 
   h2 {
     font-family: SeafordRg;
-    color: navy;
+    color: rgb(220, 28, 28);
+    text-align: center;
 }
 
   p.myP{
-    color: brown;
-    text-align: justify;
+    color: black;
+    text-align: center;
    text-justify: inter-word;
   }
 
@@ -40,7 +58,7 @@
     color: black;
   }
 
-  p.myP:hover{background-color: #ddd;}
+  p.myP:hover{background-color: #c68686;}
 
 
  body {
@@ -57,9 +75,9 @@ td {
 
 
 
-  ol:hover{background-color: #ddd;}
+  ol:hover{background-color: #c68686;}
 
-ul:hover{background-color: #ddd;}
+ul:hover{background-color: #c68686;}
 
 ol { 
     list-style: none; 
@@ -78,22 +96,23 @@ ol li {
 #mytable {
     font-family: SeafordRg;
     border-collapse: collapse;
-    width: 30%;
+    width: 100%;
   }
   
   #mytable td, #mytable th {
     border: 1px solid #ddd;
     padding: 8px;
+    width: 100%;
   }
   
   #mytable tr:nth-child(even){background-color: #f2f2f2;}
   
-  #mytable tr:hover {background-color: #ddd;}
+  #mytable tr:hover {background-color: #c68686;}
   
   #mytable th {
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: left;
+    text-align: center;
     background-color: grey;
     color: white;
   }
@@ -101,7 +120,11 @@ ol li {
   label { display: inline-block; width: 70px; text-align: right; }
  
  img.myImage{
-  height: 140px;
-  width: 150px;
-  border-radius: 50%;
+  height: 225px;
+  width: 225px;
+  border: 5px solid #000000;
+
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
  }
